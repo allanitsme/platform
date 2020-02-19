@@ -103,7 +103,7 @@ A full installation guide covering different dev environments is available in th
 Let's start by cloning the development template:
 
 ```bash
-> git clone git@github.com:shopware/development.git
+> git clone https://github.com/shopware/development.git
 ```
 
 You now have the application template for the Shopware Platform in the directory `development`, we now change into it:
@@ -115,7 +115,7 @@ You now have the application template for the Shopware Platform in the directory
 and clone the platform repository into its default directory `platform`. *Note This is important for autoloading purposes.*
 
 ```bash
-> git clone git@github.com:shopware/platform.git
+> git clone https://github.com/shopware/platform.git
 ```
 
 Build and start the containers:
